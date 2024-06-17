@@ -91,3 +91,8 @@ header nav a {
     margin: 20px auto;
     border-radius: 10px;
 }
+#hello {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%; /* ajustez la largeur à votre convenance */
+}
