@@ -8,12 +8,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
 
     </head>
 <body>
 
-    <div class="p-5 text-white text-center" id="titre">
-        <div class="container-fluid border" style="max-width: 50%;"> 
+    <div class="p-5 text-black text-center" id="titre">
+        <div class="container-fluid" style="max-width: 50%;"> 
             <h1>Votez Pour Vous</h1>
             <p>Contre le feur. <br/> Pour le quoi.</p>
         </div>
@@ -37,32 +40,16 @@
   </div>
 </nav>
 <h2 class="text-center pt-3">Notre Vision</h2>
-<div class="container mt-5">
+<div class="container mt-5" style="margin-left: 0px;">
     
   <div class="row">
     <div class="col-sm-4">
       
       <h5><b>Leo Müllbacher</b> et Claire D'Iorio :</h5>
       <div class="fakeimg">
-        <img src="photo.jpg" s/>
+        <img src="photo.jpg"/>
       </div>
       <p></p>
-      <h3 class="mt-4">Some Links</h3>
-      <p>Lorem ipsum dolor sit ame.</p>
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
       <hr class="d-sm-none">
     </div>
     <div class="col-sm-8">
@@ -77,14 +64,22 @@
 
         
       </ul>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+      <div class="mt-5">
+        <p>La France</p>
+      <div data-aos="zoom-in">
+        <p  class="border" >Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
 
+      </div>
+      
       <h2 class="mt-5">TITLE HEADING</h2>
       <h5>Title description, Sep 2, 2020</h5>
       <div class="fakeimg">Fake Image</div>
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      </div>
+      
     </div>
   </div>
 </div>
@@ -92,6 +87,9 @@
 <div class="mt-5 p-4 bg-dark text-white text-center">
   <p>Footer</p>
 </div>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

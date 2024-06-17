@@ -1,14 +1,19 @@
+body {
+    
+    background:linear-gradient(160deg, red, red 60%, white 60%, white);
+}
+
 .fakeimg {
-    height: 428px;
-    width: 300px;
+    height: auto;
+    width: auto;
 }
 .fakeimg img {
     height: 100%;
     width: 100%;
-  }
+}
   
 #titre {
-    background: rgb(105, 110, 250);
+    background: white;
 
 }
 ul {
@@ -20,4 +25,8 @@ li {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+.feur {
+    margin-top: 200px;
+    max-width: 100%;
 }
