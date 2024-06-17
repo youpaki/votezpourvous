@@ -1,8 +1,23 @@
 .fakeimg {
-    height: 200px;
-    background: #aaa;
+    height: 428px;
+    width: 300px;
 }
+.fakeimg img {
+    height: 100%;
+    width: 100%;
+  }
+  
 #titre {
     background: rgb(105, 110, 250);
 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
