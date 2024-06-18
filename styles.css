@@ -1,6 +1,6 @@
 body {
     
-    background:white;
+    background:linear-gradient(to bottom right, blue, pink);
 }
 
 .fakeimg {
