@@ -1,6 +1,6 @@
 body {
     
-    background:linear-gradient(160deg, red, red 60%, white 60%, white);
+    background:white;
 }
 
 .fakeimg {
@@ -14,6 +14,14 @@ body {
   
 #titre {
     background: white;
+    color: #000;
+    font-size: 38px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    transition: all 0.3s;
+    line-height: 100%;
+    margin: 0;
 
 }
 ul {
@@ -29,4 +37,21 @@ li {
 .feur {
     margin-top: 200px;
     max-width: 100%;
+}
+.header-new {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+#text {
+    color: #000;
+    font-size: 15px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    transition: all 0.5s;
+    line-height: 100%;
+    margin: 0;
 }
