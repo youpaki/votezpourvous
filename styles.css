@@ -56,3 +56,14 @@ li {
     line-height: 100%;
     margin: 0;
 }
+
+prout {
+    width:100%;
+    position: absolute;
+    bottom:0;
+}
+img {
+    position: relative;
+    display: block;
+    float: left;
+}
