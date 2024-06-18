@@ -1,6 +1,7 @@
+
 body {
     
-    background:linear-gradient(to bottom right, blue, pink);
+    background:linear-gradient(to bottom right, blue, rgb(255, 92, 119));
 }
 
 .fakeimg {
@@ -13,7 +14,7 @@ body {
 }
   
 #titre {
-    background: white;
+    background: linear-gradient(to bottom right, blue, rgb(255, 92, 119));
     color: #000;
     font-size: 38px;
     font-family: "Barlow Condensed", sans-serif;
