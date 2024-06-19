@@ -66,8 +66,7 @@ prout {
 }
 
 cacaprout {
-    max-width: //some % 
-    z-index: -100;
+    max-width: 100;
     position: fixed;
     bottom: 0px;
     left: 0px;
