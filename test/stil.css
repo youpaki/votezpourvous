@@ -1,3 +1,7 @@
+@font-face { font-family: Nexa; src: url('Nexa\ Light.otf'); } 
+@font-face { font-family: Nexa; font-weight: bold; src: url('Nexa Bold.otf');}
+
+
 #rose {
     background-color: #c20bc9;
 }
@@ -7,7 +11,7 @@
 }
 p {
     font-size: 20px;
-    font-family: "Barlow Condensed", sans-serif;
+    font-family: "Nexa Bold", sans-serif;
     font-style: normal;
     font-weight: 500;
     transition: all 0.3s;
@@ -16,8 +20,8 @@ p {
     color: black;
 }
 h1 {
-    font-size: 38px;
-    font-family: "Barlow Condensed", sans-serif;
+    font-size: 500px;
+    font-family: "Nexa Bold", sans-serif;
     font-style: normal;
     font-weight: 700;
     transition: all 0.3s;

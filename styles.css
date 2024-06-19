@@ -1,4 +1,8 @@
 
+
+@font-face { font-family: Nexa; src: url('Nexa\ Light.otf'); } 
+@font-face { font-family: Nexa; font-weight: bold; src: url('Nexa Bold.otf');}
+
 body {
     
     background:linear-gradient(to bottom right, blue, rgb(255, 92, 119));
