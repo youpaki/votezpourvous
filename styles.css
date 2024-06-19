@@ -57,24 +57,21 @@ li {
     margin: 0;
 }
 
-prout {
-    width:100%;
+#leoseul {
+    width: 500px;
+    height: 500px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
     position: fixed;
-    bottom:0px;
-    bottom:0;
-    right:0px;
 }
 
-cacaprout {
-    max-width: 100;
-    position: fixed;
+#claireseule {
+    width: 500px;
+    height: 500px;
     bottom: 0px;
-    left: 0px;
+    position: fixed;
+
   }
 
 
-img {
-    position: relative;
-    display: block;
-    float: left;
-}

@@ -35,4 +35,5 @@ h1 {
     width: 100px;
     margin-right: 30px;
     margin-top: 2px;
+    position: fixed;
 }
