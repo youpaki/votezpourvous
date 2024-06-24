@@ -1,108 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Bootstrap 5 Website Example</title>
+<html lang="fr">
+<head> 
+    <title>Votez Pour Vous</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Barlow Condensed' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="script.js"></script>
 
-    </head>
+</head>
+
 <body>
-
-    <div class="p-5 text-black text-center" id="titre">
-        <div class="container-fluid" style="max-width: 50%;"> 
-            <h1>Votez Pour Vous</h1>
-            <p>Contre le feur. <br/> Pour le quoi.</p>
-        </div>
-         
-    </div>
-    
-    
-<nav class="navbar navbar-expand bg-dark bg-gradient navbar-dark">
-  <div class="container-fluid">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Accueil</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Programme</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Télécharger le Bulletin</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="bulletin.png">Regarder de très près le bulletin</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<h2 class="text-center pt-3">Notre Vision</h2>
-<div class="container-fluid mt-5" style="margin-left: 0px;">
-    
-  <div class="row">
-    <div class="col-4">
-      
-      <h5><b>Leo Müllbacher</b> et Claire D'Iorio :</h5>
-      <div class="fakeimg">
-        <img src="POSTER DE POPOSTERE.jpg"/>
+    <div id="banniere" class="container-fluid p-0" style="margin-left: 0px;">
+      <div id ="Votez">
+        <strong class="votezpourvous">Votez Pour Vous !</strong>
       </div>
-      <p></p>
-      <hr class="d-none">
+        <div class="d-flex flex-row-reverse"> <img  src="question.png" /></div>
     </div>
-    <div class="col-8">
-      <h2>Pourquoi voter pour nous :</h2>
-      <h5 class="pt-3">Pour un avenir serein</h5>
-      <ul class="list-group">
-        <li class="list-group-item">Pour l'écologie au service des gens</li>
-        <li class="list-group-item">Pour la France solidaire et égalitaire</li>
-        <li class="list-group-item">Pour la démocratie participative et inclusive</li>
-        <li class="list-group-item">Pour la politique, faite autrement</li>
-        <li class="list-group-item">Pour la liberté de vivre dignement</li>
-
+    <div id="logo" class="container-fluid p-0">
+      <img src="header_web.png"></img>
+    </div>
+    <div class="container-fluid p-0" style="margin-left: 0px;">
+        <div class="row">
+            <div id="rose" class="col-6">
+              <div id="manifeste"> <h1>Faire la politique <strong class="highlight">autrement</strong> </h1>
+              </div>
+            </div>
         
-      </ul>
+            <div id="violet" class="col-6">
+
+              <div class="col-lg-10 offset-lg-1 col-content-hp col-right-basic">
+                <p>Nous appelons à la constitution d’un nouveau Front Populaire rassemblant dans une forme inédite <strong>toutes les forces de gauche humanistes, syndicales, associatives et citoyennes.</strong> Nous souhaitons porter un programme de ruptures sociales et écologiques pour construire une alternative à Emmanuel Macron et combattre le projet raciste de l’extrême droite.</p>
+<p>Dans chaque circonscription, nous voulons soutenir <strong>des candidatures uniques dès le premier tour.</strong> Elles porteront un programme de rupture détaillant les mesures à engager dans les 100 premiers jours du gouvernement du nouveau Front Populaire. <strong>Notre objectif est de gouverner pour répondre aux urgences démocratiques, écologiques, sociales et pour la paix.</strong></p>
+<p>En écho à l’appel des syndicats et de la jeunesse, nous appelons à rejoindre les cortèges et à manifester largement.</p>
+<p>À la manière dont nous gouvernerons, sur un cap clair, nous voulons bâtir ce <strong>nouveau Front Populaire</strong> avec toutes les forces qui partagent cette ambition et cet espoir.<br><br></p>
+              </div>
+              <div class="col-lg-12 offset-lg-1 col-pipi" style="padding-top: 0px;">
+                <div class="container p-0" >
+                  <a type="button" class="btn btn-success" href="/bulletin.png" download="bulletin" id="bulletin">
+
+                    <div>
+                      <span>Télécharger votre bulletin</span>
+                      <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="path-rectangle" d="M26.8871 27.5H6.88708C6.62187 27.5 6.36751 27.3946 6.17998 27.2071C5.99244 27.0196 5.88708 26.7652 5.88708 26.5V9.5L7.88708 5.5H25.8871L27.8871 9.5V26.5C27.8871 26.7652 27.7817 27.0196 27.5942 27.2071C27.4067 27.3946 27.1523 27.5 26.8871 27.5Z" fill="white" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path class="path-trait" d="M5.88708 9.5H27.8871" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path class="path-trait" d="M16.8871 13.5V23.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path class="path-trait" d="M12.8871 19.5L16.8871 23.5L20.8871 19.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>         
+                    </div>
+                  </a>      
+                </div>
+                  <p> J'ai fait <strong>pipi</strong> dans le jura.</p>
+                  <p> Il en faut des <strong>couilles.</strong> (dans le jura).</p>
+                  <p> J'ai <strong>voté</strong> dans le jura.</p>
+                
+              </div>
+            
+            </div>
+        </div>
     </div>
-  </div>
-      <div class="mt-5">
-        <p>La France</p>
-      <div data-aos="zoom-in">
-        <p  class="border" >Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-
-      </div>
-      
-      <h2 class="mt-5">TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2020</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
-
-<div id="leoseul"> 
-  <img src="leo seul.png"/>
-</div>
-<div id="claireseule" class="container-fluid p-0" style="margin-left: 0px;"> </div>>
-  <div class="d-flex flex-row-reverse"> <img src="claire seule.png"/></div>
-</div>
-
-
-
-<div class="mt-5 p-4 bg-dark text-white text-center">
-  <p>Footer</p>
-</div>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
 </body>
 </html>

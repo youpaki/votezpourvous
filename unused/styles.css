@@ -1,0 +1,81 @@
+
+
+@font-face { font-family: Nexa; src: url('Nexa\ Light.otf'); } 
+@font-face { font-family: Nexa; font-weight: bold; src: url('Nexa Bold.otf');}
+
+body {
+    
+    background:linear-gradient(to bottom right, blue, rgb(255, 92, 119));
+}
+
+.fakeimg {
+    height: auto;
+    width: auto;
+}
+.fakeimg img {
+    height: 100%;
+    width: 100%;
+}
+  
+#titre {
+    background: linear-gradient(to bottom right, blue, rgb(255, 92, 119));
+    color: #000;
+    font-size: 38px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    transition: all 0.3s;
+    line-height: 100%;
+    margin: 0;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.feur {
+    margin-top: 200px;
+    max-width: 100%;
+}
+.header-new {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+#text {
+    color: #000;
+    font-size: 15px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    transition: all 0.5s;
+    line-height: 100%;
+    margin: 0;
+}
+
+#leoseul {
+    width: 500px;
+    height: 500px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    position: fixed;
+}
+
+#claireseule {
+    width: 500px;
+    height: 500px;
+    bottom: 0px;
+    position: fixed;
+
+  }
+
+

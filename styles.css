@@ -1,81 +1,109 @@
-
-
 @font-face { font-family: Nexa; src: url('Nexa\ Light.otf'); } 
 @font-face { font-family: Nexa; font-weight: bold; src: url('Nexa Bold.otf');}
 
-body {
-    
-    background:linear-gradient(to bottom right, blue, rgb(255, 92, 119));
-}
 
-.fakeimg {
-    height: auto;
-    width: auto;
+#rose {
+    background-color: #c20bc9;
+    background-color: #a93159;
+    background: linear-gradient(180deg, #a93159 0%, #aa2a54 100%);
+    padding-top: 56px;
+    padding-left: 107px;
+    padding-bottom: 66px;
 }
-.fakeimg img {
-    height: 100%;
-    width: 100%;
+#violet {
+    background-color: #2c1192;
+    background-color: #5838d2;
+    background-color: #FFF;
 }
-  
-#titre {
-    background: linear-gradient(to bottom right, blue, rgb(255, 92, 119));
-    color: #000;
-    font-size: 38px;
-    font-family: "Barlow Condensed", sans-serif;
+p {
+    font-size: 20px;
+    font-family: "Nexa", sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     transition: all 0.3s;
     line-height: 100%;
     margin: 0;
-
+    color: black;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.feur {
-    margin-top: 200px;
-    max-width: 100%;
-}
-.header-new {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 40px;
-    padding-bottom: 90px;
-}
-#text {
-    color: #000;
-    font-size: 15px;
-    font-family: "Barlow Condensed", sans-serif;
+h1 {
+    font-size: 500px;
+    font-family: "Nexa", sans-serif;
     font-style: normal;
-    font-weight: 700;
-    transition: all 0.5s;
+    font-weight: 500;
+    transition: all 0.3s;
     line-height: 100%;
     margin: 0;
+    color: black;
 }
-
-#leoseul {
-    width: 500px;
-    height: 500px;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-    position: fixed;
+#banniere {
+    width: auto;
+    height: 100px;
+    background: linear-gradient(300deg,#5838d2  20ch, #a93159 11.05ch);
+    
 }
-
-#claireseule {
-    width: 500px;
-    height: 500px;
-    bottom: 0px;
-    position: fixed;
-
-  }
-
-
+#banniere img {
+    height: 100px;
+    width: 100px;
+    margin-right: 30px;
+}
+#logo {
+    width: auto;
+    height: auto;
+}
+#logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#manifeste {
+    position: sticky;
+    top: 20px;
+}
+.highlight {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Nexa", sans-serif;
+    font-size: 73px;
+    font-style: normal;
+    text-shadow: darkorchid;
+    font-weight: 700;
+}
+.col-right-basic {
+    padding-top: 85px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.col-right-basic p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.col-pipi {
+    padding-top: 85px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.col-pipi p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+#bulletin {
+    display: table;
+    margin: 0 auto;
+}
+.votezpourvous {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Nexa", sans-serif;
+    font-size: 73px;
+    font-style: normal;
+    text-shadow: darkorchid;
+    font-weight: 700;
+}
