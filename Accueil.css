@@ -1,5 +1,6 @@
  .u-section-1 {
   background-image: url("images/degradsiteinternet.png");
+  background-position: 50% 50%;
   min-height: 824px;
 }
 
@@ -15,14 +16,10 @@
   margin: -930px 1098px 0 0;
 }
 
-.u-section-1 .u-text-1 {
-  margin: -322px 1014px 0 444px;
-}
-
 .u-section-1 .u-btn-1 {
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 31px auto 0 calc(((100% - 1140px) / 2));
+  margin: -319px auto 60px calc(((100% - 1140px) / 2)  + 121px);
   padding: 0;
 }
 
@@ -42,11 +39,6 @@
   .u-section-1 .u-image-2 {
     margin-top: -2683px;
     margin-right: 10px;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-right: 914px;
-    margin-left: 344px;
   }
 
   .u-section-1 .u-btn-1 {
@@ -72,14 +64,8 @@
     margin-right: 100px;
   }
 
-  .u-section-1 .u-text-1 {
-    width: auto;
-    margin-top: -547px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
   .u-section-1 .u-btn-1 {
+    margin-top: -563px;
     margin-left: auto;
   }
 }
@@ -101,10 +87,9 @@
     margin-right: 0;
   }
 
-  .u-section-1 .u-text-1 {
-    margin-top: -367px;
-    margin-left: 0;
-    margin-right: 0;
+  .u-section-1 .u-btn-1 {
+    margin-top: -383px;
+    margin-left: calc(((100% - 540px) / 2));
   }
 }
 
@@ -116,7 +101,7 @@
   .u-section-1 .u-image-1 {
     width: 340px;
     height: 340px;
-    margin-top: 182px;
+    margin-top: 60px;
   }
 
   .u-section-1 .u-image-2 {
@@ -126,15 +111,10 @@
     margin-right: 100px;
   }
 
-  .u-section-1 .u-text-1 {
-    margin-top: -340px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
   .u-section-1 .u-btn-1 {
-    margin-top: 24px;
-    margin-bottom: 60px;
+    margin-top: -274px;
+    margin-left: auto;
+    margin-bottom: 197px;
   }
 } .u-section-2 {
   background-image: none;
