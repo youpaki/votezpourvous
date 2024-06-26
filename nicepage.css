@@ -4,6 +4,10 @@
  * Copyright 2014-2021 Froala Labs
  */
 
+
+@font-face { font-family: Nexa; src: url('Nexa\ Light.otf'); } 
+@font-face { font-family: Nexa; font-weight: bold; src: url('Nexa Bold.otf');}
+
 .fr-clearfix::after {
   clear: both;
   display: block;

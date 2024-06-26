@@ -1,3 +1,6 @@
+@font-face { font-family: Nexa; src: url('Nexa\ Light.otf'); } 
+@font-face { font-family: Nexa; font-weight: bold; src: url('Nexa Bold.otf');}
+ 
  .u-section-1 {
   background-image: url("images/degradsiteinternet.png");
   background-position: 50% 50%;
